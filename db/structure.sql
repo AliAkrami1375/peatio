@@ -88,7 +88,7 @@ CREATE TABLE `beneficiaries` (
   `data` json DEFAULT NULL,
   `pin` mediumint(8) unsigned NOT NULL,
   `sent_at` datetime DEFAULT NULL,
-  `state` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `state` tinyint(3) unsigned NOT NULL DEFAULT '1',
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL,
   PRIMARY KEY (`id`),
